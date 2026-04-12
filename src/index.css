@@ -1,0 +1,57 @@
+@font-face {
+  font-family: inter-regular;
+  src: url("../public//fonts//Inter-Regular.woff");
+}
+@font-face {
+  font-family: inter-bold;
+  src: url("../public//fonts//Inter-Bold.woff");
+  font-weight: bold;
+}
+@font-face {
+  font-family: inter-bolder;
+  src: url("../public//fonts//Inter-ExtraBold.woff");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: inter-medium;
+  src: url("../public//fonts//Inter-Medium.woff");
+  font-weight: 700;
+}
+
+:root {
+  --dark-bg: #0f0f0f;
+  --dark-bg-surface: #2f2f2f;
+  --dark-surface-text: #7f7f7f;
+  --dark-bg-shadow: #3f3f3f;
+  --light-bg: #f8f9fb;
+  --light-bg-surface: #b8b9bb;
+  --light-border: #e5e7eb;
+  --primary-color: #6366f1;
+
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  font-family: inter-regular;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.3s;
+}
+
+body {
+  background-color: var(--dark-bg);
+  color: var(--light-bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: inter-bold;
+}

@@ -1,0 +1,47 @@
+.PNF-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 40px;
+}
+
+.PNF {
+  color: var(--primary-color);
+  font-size: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.PNF-main {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  text-align: center;
+}
+
+.PNF-link {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding: 4px 8px;
+  border-radius: 8px;
+  background-color: var(--primary-color);
+  color: var(--bg-light);
+  text-decoration: none;
+}
+
+.PNF-link p {
+  margin-top: 2.5px;
+}
+
+.PNF-link:hover {
+  box-shadow: 0 0 10px var(--primary-color);
+}

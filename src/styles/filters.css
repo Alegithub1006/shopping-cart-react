@@ -1,0 +1,51 @@
+.filters {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 8px;
+}
+
+.filters-section {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 8px;
+}
+
+.filter-sort {
+  outline: none;
+  background-color: var(--dark-surface);
+  color: var(--dark-surface-text);
+  padding: 8px 16px;
+  border: 2px solid var(--dark-surface-text);
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.filter-sort option {
+  padding: 8px 16px;
+  background-color: #2f2f2f;
+  color: var(--dark-surface-text);
+}
+
+.filter-category {
+  padding: 8px 16px;
+  color: var(--dark-surface-text);
+  background-color: var(--dark-surface);
+  border: 2px solid var(--dark-surface-text);
+  border-radius: 20px;
+}
+
+.filter-price {
+  background-color: var(--primary-color);
+  color: var(--primary-color);
+}
+/* PISTA (Chrome, Edge, Safari) */
+
+.filters-aside {
+  color: var(--dark-surface-text);
+  display: flex;
+  justify-content: end;
+  gap: 4px;
+}

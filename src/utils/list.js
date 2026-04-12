@@ -1,0 +1,15 @@
+export const productos = [
+  { nombre: "Laptop Lenovo ThinkPad", precio: 1200, categoria: "Tecnología" },
+  { nombre: "Café Molido Premium", precio: 8, categoria: "Alimentos" },
+  { nombre: "Silla Ergonómica", precio: 150, categoria: "Muebles" },
+  { nombre: "Monitor 27'' 144Hz", precio: 320, categoria: "Tecnología" },
+  { nombre: "Teclado Mecánico RGB", precio: 90, categoria: "Tecnología" },
+  { nombre: "Zapatillas Running", precio: 75, categoria: "Ropa" },
+  { nombre: "Mesa de Madera", precio: 210, categoria: "Muebles" },
+  { nombre: "Audífonos Inalámbricos", precio: 60, categoria: "Tecnología" },
+  { nombre: "Camiseta Deportiva", precio: 25, categoria: "Ropa" },
+  { nombre: "Chocolate Amargo 70%", precio: 5, categoria: "Alimentos" },
+  { nombre: "Smartwatch FitBand", precio: 110, categoria: "Tecnología" },
+  { nombre: "Jabón Artesanal", precio: 4, categoria: "Higiene" },
+  { nombre: "Cargador USB-C 30W", precio: 18, categoria: "Tecnología" },
+];

@@ -1,0 +1,38 @@
+.list-review {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.list-element {
+  list-style: none;
+  padding: 12px;
+  border: 2px solid var(--dark-bg-surface);
+  border-radius: 12px;
+}
+
+.element-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.element-rating {
+  width: 100%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 4px;
+  color: var(--primary-color);
+}
+
+.comment {
+  color: var(--primary-color);
+}
+.review-email {
+  color: var(--primary-color);
+  font-size: 12px;
+}
