@@ -1,6 +1,6 @@
 import { useCart } from "../hooks/useCart";
 import "../styles/cart.css";
-import { CartTable } from "./cartTable";
+import { CartTable } from "./CartTable";
 
 export function CartItem() {
   const {
