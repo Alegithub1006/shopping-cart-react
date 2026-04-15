@@ -1,5 +1,5 @@
 import { Link } from "react-router";
-import "../styles/PageNotFound.css";
+import "../styles/pageNotFound.css";
 import { Home, NotFound } from "../components/Icons";
 
 export function PagenotFound() {
