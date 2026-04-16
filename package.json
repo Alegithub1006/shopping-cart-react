@@ -1,5 +1,6 @@
 {
   "name": "product-card",
+  "homepage": "https://github.com/Alegithub1006.github.io/shopping-cart-react/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -8,6 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "perdeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
