@@ -1,7 +1,6 @@
 {
   "name": "product-card",
-  "homepage": "https://github.com/Alegithub1006.github.io/shopping-cart-react/",
-  "private": true,
+  "homepage": "https://Alegithub1006.github.io/shopping-cart-react/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
